@@ -1,0 +1,28 @@
+{
+  "folders": [
+    { "path": "." }
+  ],
+  "settings": {
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    },
+    "eslint.validate": ["javascript", "typescript", "vue"],
+    "prettier.requireConfig": true
+  },
+  "extensions": {
+    "recommendations": [
+      "esbenp.prettier-vscode",
+      "dbaeumer.vscode-eslint",
+      "Vue.volar",
+      "formulahendry.auto-rename-tag",
+      "formulahendry.auto-close-tag",
+      "ms-ceintl.vscode-language-pack-zh-hans",
+      "formulahendry.code-runner",
+      "mhutchie.git-graph",
+      "oderwat.indent-rainbow",
+      "gerrnperl.outline-map",
+      "christian-kohler.path-intellisense"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "folders": [
+    { "path": "." }
+  ],
+  "settings": {
+    "editor.formatOnSave": true,
+    "C_Cpp.intelliSenseEngine": "Default",
+    "C_Cpp.default.compilerPath": "/usr/bin/g++",
+    "C_Cpp.default.includePath": [
+      "${workspaceFolder}/include"
+    ],
+    "code-runner.executorMap": {
+      "cpp": "g++ -g $fileName -o $fileNameWithoutExt && $fileNameWithoutExt"
+    }
+  },
+  "extensions": {
+    "recommendations": [
+      "ms-vscode.cpptools",
+      "ms-ceintl.vscode-language-pack-zh-hans",
+      "formulahendry.code-runner",
+      "mhutchie.git-graph",
+      "oderwat.indent-rainbow",
+      "gerrnperl.outline-map",
+      "christian-kohler.path-intellisense"
+    ]
+  }
+}

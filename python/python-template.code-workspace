@@ -1,0 +1,29 @@
+{
+  "folders": [
+    { "path": "." }
+  ],
+  "settings": {
+    "python.defaultInterpreterPath": "venv/bin/python",
+    "python.terminal.activateEnvironment": true,
+    "python.analysis.typeCheckingMode": "basic",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true
+    }
+  },
+  "extensions": {
+    "recommendations": [
+      "ms-python.python",
+      "ms-python.vscode-pylance",
+      "ms-toolsai.jupyter",
+      "ms-python.debugpy",
+      "ms-python.vscode-python-envs",
+      "ms-ceintl.vscode-language-pack-zh-hans",
+      "formulahendry.code-runner",
+      "mhutchie.git-graph",
+      "oderwat.indent-rainbow",
+      "gerrnperl.outline-map",
+      "christian-kohler.path-intellisense"
+    ]
+  }
+}
